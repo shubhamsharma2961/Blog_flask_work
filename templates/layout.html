@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Navigation Bar With Scroll Every Section</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">CodingLab</a></div>
+        <ul class="menu">
+          <li><a href="../index">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="fetch">View</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Card Section -->
+    <div class="cards-container">
+      <div class="card">
+        <h3>Card Title 1</h3>
+        <p>This is a description for card 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 2</h3>
+        <p>This is a description for card 2.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 3</h3>
+        <p>This is a description for card 3.</p>
+      </div>
+    </div>
+
+    <div class="button">
+      <a href="#Home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+  </body>
+</html>

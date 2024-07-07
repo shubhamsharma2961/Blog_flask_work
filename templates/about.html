@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Blogging Website</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Embedded CSS for this page */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .logo a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    
+    .menu li {
+      margin-left: 20px;
+    }
+    
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    .content {
+      max-width: 800px;
+      margin: 120px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+    
+    .content h2 {
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    
+    .content p {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .button {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .button a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-size: 24px;
+      display: inline-block;
+    }
+    
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 20px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">CodingLab</a></div>
+      <ul class="menu">
+        <li><a href="../index">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="fetch">View</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h2>About Our Blogging Website</h2>
+    <p>Welcome to our blogging platform! We are passionate about sharing knowledge, ideas, and insights on various topics related to technology, programming, and creativity.</p>
+    <p>Our mission is to provide valuable content that inspires and educates our readers. Whether you are a beginner looking to learn the basics of coding or an experienced developer seeking advanced techniques, you'll find something useful here.</p>
+    <p>Stay tuned for regular updates, in-depth tutorials, and articles that cover the latest trends in web development, software engineering, and digital design.</p>
+  </div>
+
+  <div class="button">
+    <a href="#Home"><i class="fas fa-arrow-up"></i> Back to Top</a>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 CodingLab. All rights reserved.</p>
+  </div>
+</body>
+</html>

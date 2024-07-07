@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Navigation Bar With Scroll Every Section</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      nav {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .logo a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+
+      .menu li {
+        margin-left: 20px;
+      }
+
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 80px auto;
+        max-width: 1200px;
+        padding: 20px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+      }
+
+      .card h3 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      .card p {
+        color: #777;
+      }
+
+      .card button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .card button:hover {
+        background-color: #45a049;
+      }
+
+      .button {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .button a {
+        text-decoration: none;
+        color: #4CAF50;
+        font-size: 24px;
+        display: inline-block;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: #fff;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">CodingLab</a></div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="fetch">View</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Card Section -->
+    <div class="cards-container">
+      <div class="card">
+        <h3>The Art of Coding</h3>
+        <p>Coding is not just a skill, it's an art form. Discover how to master this art and create beautiful, efficient code.</p>
+        <button>Read More</button>
+      </div>
+      <div class="card">
+        <h3>10 Tips for New Developers</h3>
+        <p>Starting out in the tech world? Here are 10 tips to help you navigate the industry and become a successful developer.</p>
+        <button>Read More</button>
+      </div>
+      <div class="card">
+        <h3>Understanding APIs</h3>
+        <p>APIs are essential for modern development. Learn what they are, how they work, and how to use them effectively in your projects.</p>
+        <button>Read More</button>
+      </div>
+      <div class="card">
+        <h3>Web Development Trends 2024</h3>
+        <p>Stay ahead of the curve by learning about the latest trends in web development. From new frameworks to design principles, we've got you covered.</p>
+        <button>Read More</button>
+      </div>
+      <div class="card">
+        <h3>Mastering JavaScript</h3>
+        <p>JavaScript is a powerful language that every developer should master. Explore advanced techniques and tips to become a JS pro.</p>
+        <button>Read More</button>
+      </div>
+      <div class="card">
+        <h3>Building Responsive Websites</h3>
+        <p>Responsive design is crucial in today's mobile-first world. Learn how to create websites that look great on any device.</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="button">
+      <a href="#Home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+  </body>
+</html>
