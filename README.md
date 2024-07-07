@@ -58,11 +58,5 @@ Welcome to the Blogging Website repository! This guide will help you set up and 
 ### 5. Explore the Website
 - You should now be able to access the home page, about page, view, and contact page from the navigation menu.
 
-## Screenshots
-Include some screenshots of the website to give users a visual idea of what to expect.
-
-## Contributing
-If you'd like to contribute to this project, please follow the standard GitHub flow: fork the repository, create a feature branch, commit your changes, and create a pull request.
-
 ## License
 Specify the license under which the project is distributed.
