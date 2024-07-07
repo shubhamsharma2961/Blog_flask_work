@@ -58,5 +58,3 @@ Welcome to the Blogging Website repository! This guide will help you set up and 
 ### 5. Explore the Website
 - You should now be able to access the home page, about page, view, and contact page from the navigation menu.
 
-## License
-Specify the license under which the project is distributed.
